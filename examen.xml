@@ -6,7 +6,7 @@
 	<date mois="Mai" annee="2018"/>
 	<questions>
 		<question>
-			<partie>
+			<parties>
 				1) Soit le document XML suivant:
 				<partie>
 					<![CDATA[
@@ -31,32 +31,32 @@
 				<partie>C.Quel est le contenu de l'élément président ?</partie>
 				<partie>D.Quel est le contenu de l'élément adjoint ?</partie>
 				<partie>E. Combien d'éléments president peut contenir un élément compagnie ?</partie>
-			</partie>
+			</parties>
 		</question>
 		<question>
-			<partie>
+			<parties>
 				2) Au Cinéma !
 				Dans cet exercice on se propose de concevoir un systeme permettant de publier le programme d'un 
 				cinema sur Internet. Le programme est constitue du descriptif de chaque film a l'affiche pendant
 				la semaine.
-			</partie>
+			</parties>
 		</question> 
 		<question>
-			<partie>
+			<parties>
 				3) Ecrire la DTD correspondante à chacun des points suivants :
 				<partie> -un dialogue est compose de 0 ou 1 situation puis de au moins 1 replique</partie>
 				<partie> -une situation est donnee textuelle PCDATA(Parsed Character Data) </partie>
 				<partie> -une replique est composee de 1 personnage puis de 1 texte. </partie>
-			</partie>
+			</parties>
 		</question>
 		<question>
-			<partie>
+			<parties>
 				4) Soit la DTD suivante : 
-			</partie>
+			</parties>
 
 		</question>
 		<question>
-			<partie>
+			<parties>
 				5) On souhaite représenter un carnet d'adresses en XML.Pour chaque entree du carnet, obn veut 
 				conserver les informations suivantes:
 				-nom et prenom de la personne
@@ -69,7 +69,7 @@
 					faisant apparaitre toutes les possibilites de la DTD (c'est a dire toutes les valeurs 
 					possibles pour les attributs et tous les elements et attributs optionnels).
 				</partie>
-			</partie>
+			</parties>
 
 		</question>
 		<question>
