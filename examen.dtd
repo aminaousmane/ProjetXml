@@ -1,4 +1,5 @@
 <!ELEMENT examen(titre,date,questions)>
+<!ATTLIST examen code NMTOKEN #REQUIRED>
 <!ELEMENT titre(#PCDATA)>
 <!ELEMENT date EMPTY>
 <!ATTLIST date mois(Janv|Fev|Mars|Avr|Mai|Juin|Juil|Aout|Sept|Oct|Nov|Dec)#REQUIRED annee CDATA #REQUIRED>
