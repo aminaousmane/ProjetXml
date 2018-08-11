@@ -52,6 +52,19 @@
 		<question>
 			<parties>
 				4) Soit la DTD suivante : 
+				<partie>
+					<![CDATA[
+						<!ELEMENT anthologie (poeme+)>
+						<!ELEMENT Poeme(titre?, strophe+)>
+						<!ELEMENT titre(#PCDATA)>
+						<!ELEMENT strophe(ligne+)>
+						<!ELEMENT ligne (#PCDATA)>
+						]
+					]]>
+				</partie>
+				<partie>
+					Cette DTD est-elle correcte? Justifier.
+				</partie>
 			</parties>
 
 		</question>
