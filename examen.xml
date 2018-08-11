@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
-<?xml-stylesheet href="examen.xsl" type="text/css"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
 <!DOCTYPE cours SYSTEM "examen.dtd">
-<examen>
+<examen code="passage">
 	<titre>TD 1 (XML:Syntaxe-DTD)</titre>
 	<date mois="Mai" annee="2018"/>
 	<questions>
