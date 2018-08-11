@@ -1,1 +1,65 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<!DOCTYPE cours SYSTEM "examen.dtd">
+<examen>
+	<titre>TD 1 (XML:Syntaxe-DTD)</titre>
+	<date mois="Mai" annee="2018"/>
+	<questions>
+		<question>
+			<partie>
+				1) Soit le document XML suivant:
+				<partie>
+					<![CDATA[
+						<?xml version="1.0" encoding="utf8"?>
+						<!DOCTYPE compagnie [<!ENTITY % administration "Jean Perron" >
+						<!ENTITY administration "Jean Boudin">
+						<!ELEMENT compagnie (president,comptable,adjoint)*>
+						<!ELEMENT president(#PCDATA)>
+						<!ELEMENT comptable(#PCDATA)>
+						<!ELEMENT adjoint(#PCDATA)>
 
+						]
+						<compagnie>
+							<president>&administration;</president>
+							<comptable>&administration;</comptable>
+							<adjoint>Marion Lepage</adjoint>
+						</compagnie>
+					]]>
+				</partie>
+				<partie>A.Quel est le nom de l'élément racine ?</partie>
+				<partie>B.Quel est le contenu de l'élément comptable ?</partie>
+				<partie>C.Quel est le contenu de l'élément président ?</partie>
+				<partie>D.Quel est le contenu de l'élément adjoint ?</partie>
+				<partie>E. Combien d'éléments president peut contenir un élément compagnie ?</partie>
+			</partie>
+		</question>
+		<question>
+			<partie>
+				2) Au Cinéma !
+			</partie>
+		</question> 
+		<question>
+			<partie>
+				3) Ecrire la DTD correspondante à chacun des points suivantes :
+			</partie>
+		</question>
+		<question>
+			<partie>
+				4) Soit la DTD suivante : 
+			</partie>
+
+		</question>
+		<question>
+			<partie>
+				5) On souhaite représenter un carnet
+			</partie>
+
+		</question>
+		<question>
+			<partie>
+				6) Ecrire une DTD pour des documents XML de type examen
+			</partie>
+
+		</question>
+	</questions>
+</examen>
