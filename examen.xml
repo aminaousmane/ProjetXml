@@ -43,7 +43,10 @@
 		</question> 
 		<question>
 			<partie>
-				3) Ecrire la DTD correspondante à chacun des points suivantes :
+				3) Ecrire la DTD correspondante à chacun des points suivants :
+				-un dialogue est compose de 0 ou 1 situation puis de au moins 1 replique
+				-une situation est donnee textuelle PCDATA(Parsed Character Data)
+				-une replique est composee de 1 personnage puis de 1 texte.
 			</partie>
 		</question>
 		<question>
