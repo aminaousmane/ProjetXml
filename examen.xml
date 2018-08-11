@@ -74,7 +74,15 @@
 		</question>
 		<question>
 			<parties>
-				6) Ecrire une DTD pour des documents XML de type examen
+				6) Ecrire une DTD pour des documents XML de type examen. Un examen contient un code de cours, 
+				un titre et une date qui contient uniquement le mois et l'annee. Ces elements sont suivis par une 
+				liste de questions. Un examen a entre 5 et 6 questions et chaque question a une ou plusieurs parties.
+				Une partie se decoupe en textes melanges avec d'autres parties. Le code est uniquement alphanumerique
+				, sans espace, la valeur de mois dit etre une chaine de caractere valide (idee : utilisez des enumerations).
+				<partie> 
+					Donnez une instance de document valide par rapport a votre DTD (Utilisez une declaration de DTD externe)
+					et deux exemples invalide en expliquant pourquoi
+				</partie>
 			</parties>
 
 		</question>
