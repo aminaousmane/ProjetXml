@@ -44,9 +44,9 @@
 		<question>
 			<partie>
 				3) Ecrire la DTD correspondante à chacun des points suivants :
-				-un dialogue est compose de 0 ou 1 situation puis de au moins 1 replique
-				-une situation est donnee textuelle PCDATA(Parsed Character Data)
-				-une replique est composee de 1 personnage puis de 1 texte.
+				<partie> -un dialogue est compose de 0 ou 1 situation puis de au moins 1 replique</partie>
+				<partie> -une situation est donnee textuelle PCDATA(Parsed Character Data) </partie>
+				<partie> -une replique est composee de 1 personnage puis de 1 texte. </partie>
 			</partie>
 		</question>
 		<question>
@@ -57,7 +57,18 @@
 		</question>
 		<question>
 			<partie>
-				5) On souhaite représenter un carnet
+				5) On souhaite représenter un carnet d'adresses en XML.Pour chaque entree du carnet, obn veut 
+				conserver les informations suivantes:
+				-nom et prenom de la personne
+				-adresse
+				-numero de telephone(eventuellement plusieurs)
+				-adresse mail(eventuellement plusieurs)
+				-date d'anniversaire
+				<partie> 1. Ecrire une DTD pour le carnet d'adresses.</partie>
+				<partie> 2. Ecrire un fichier valide pour cette DTD, comportant au moins deux entrees et
+					faisant apparaitre toutes les possibilites de la DTD (c'est a dire toutes les valeurs 
+					possibles pour les attributs et tous les elements et attributs optionnels).
+				</partie>
 			</partie>
 
 		</question>
