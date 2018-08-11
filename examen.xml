@@ -6,7 +6,7 @@
 	<date mois="Mai" annee="2018"/>
 	<questions>
 		<question>
-			<parties>
+			<parties>  
 				1) Soit le document XML suivant:
 				<partie>
 					<![CDATA[
@@ -37,8 +37,13 @@
 			<parties>
 				2) Au Cinéma !
 				Dans cet exercice on se propose de concevoir un systeme permettant de publier le programme d'un 
-				cinema sur Internet. Le programme est constitue du descriptif de chaque film a l'affiche pendant
-				la semaine.
+				cinema sur Internet. Le programme est constitué du descriptif de chaque film a l'affiche pendant
+				la semaine. Comme dans l'exemple, ci-après chaque film est décrit par son titre, sa durée, son genre,
+				son réalisateur,ses acteurs,année de production, sa langue de diffusion ainsi que par un cout paragraphe
+				décrivant l'intrigue. Cette description est complétée par la liste des horaires de projection.
+				<partie>Proposer un arbre XML pour représenterle film décritci-dessus(les brigardes du tigre)</partie>
+				<partie>Quels élément faut-ils ajouter pour construire un document représentant l'ensemble d'un programme d'un cinéma ?</partie>
+				
 			</parties>
 		</question> 
 		<question>
@@ -52,19 +57,6 @@
 		<question>
 			<parties>
 				4) Soit la DTD suivante : 
-				<partie>
-					<![CDATA[
-						<!ELEMENT anthologie (poeme+)>
-						<!ELEMENT Poeme(titre?, strophe+)>
-						<!ELEMENT titre(#PCDATA)>
-						<!ELEMENT strophe(ligne+)>
-						<!ELEMENT ligne (#PCDATA)>
-						]
-					]]>
-				</partie>
-				<partie>
-					Cette DTD est-elle correcte? Justifier.
-				</partie>
 			</parties>
 
 		</question>
@@ -82,6 +74,7 @@
 					faisant apparaitre toutes les possibilites de la DTD (c'est a dire toutes les valeurs 
 					possibles pour les attributs et tous les elements et attributs optionnels).
 				</partie>
+				<partie>Proposer une DTD pour valider les arbres XML</partie>
 			</parties>
 
 		</question>
