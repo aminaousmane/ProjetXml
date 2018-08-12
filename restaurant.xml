@@ -7,6 +7,7 @@
 		<adresse>Route de l'Aeroport, Dakar</adresse>
 		<nomRestaurateur>Victor Sall</nomRestaurateur>
 		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
+		<image position="Gauche" url=""/>
 	</coordonnees>
 	<carte>
 		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
