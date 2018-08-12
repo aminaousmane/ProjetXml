@@ -22,7 +22,7 @@
 		<menu titre="menuVegetarien">
 			<descriptionMenu>Menu végétarien riche et sain </descriptionMenu>
 			<prix devise ="franc cfa">12500</prix>
-			<listePlats idPlat="plat1"/>
+			<listePlats idPlat="plat3 plat2 plat4"/>
 		</menu>
 		<menu titre="menuAnniversaire">
 		
