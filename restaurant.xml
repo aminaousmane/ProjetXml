@@ -9,7 +9,7 @@
 		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
 	</coordonnees>
 	<carte>
-		<plat>
+		<plat id="plat1" nomPlat="Filet de boeuf">
 			<prix>15000</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
 		</plat>
