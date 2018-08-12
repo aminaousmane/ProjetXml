@@ -51,8 +51,8 @@
 </restaurant>
 <restaurant>
 	<coordonnees>
-		<nom>La Plancha</nom>
-		<adresse>44 Rue Wagane Diouf, Dakar, Sénégal</adresse>
+		<nom>La Calebasse</nom>
+		<adresse>Route de la corniche</adresse>
 		<nomRestaurateur>Modou Diouf</nomRestaurateur>
 		<description>Française, Asiatique, Grillades</description>
 		<images position="Gauche" url=""/>
