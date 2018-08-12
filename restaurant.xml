@@ -25,6 +25,14 @@
 			<prix devise ="franc cfa">2500</prix>
 			<descriptionPlat>Salade Niçoise aux légumes sautés </descriptionPlat>
 		</plat>
+		<plat id="plat5" nomPlat="Gâteau 3 chocolat" partieRepas="dessert">
+			<prix devise ="franc cfa">10500</prix>
+			<descriptionPlat>Gâteau chocolaté </descriptionPlat>
+		</plat>
+		<plat id="plat6" nomPlat="Poulet grillé" partieRepas="dessert">
+			<prix devise ="franc cfa">4500</prix>
+			<descriptionPlat>Grillade de poulets </descriptionPlat>
+		</plat>
 	</carte>
 	<menus>
 		<menu titre="menuVegetarien">
@@ -33,10 +41,9 @@
 			<listePlats idPlat="plat3 plat2 plat4"/>
 		</menu>
 		<menu titre="menuAnniversaire">
-		
-		</menu>
-		<menu titre="platDuJour">
-		
+			<descriptionMenu>Menu pour anniversaire 4 personnes </descriptionMenu>
+			<prix devise ="franc cfa">40000</prix>
+			<listePlats idPlat="plat3 plat5 plat6"/>
 		</menu>
 	</menus>
 	
