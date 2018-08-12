@@ -10,12 +10,17 @@
 		<image position="gauche" url=""/>
 	</coordonnees>
 	<carte>
-		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
+		<plat id="plat1" nomPlat="Salade Niçoise" partieRepas="entree">
+			<prix devise="franc cfa">3000</prix>
+			<descriptionPlat>Salade niçoise aux légumes sautés</descriptionPlat>
+			<image position="droite" url=""/>
+		</plat>
+		<plat id="plat2" nomPlat="Filet de boeuf" partieRepas="plat">
 			<prix devise="franc cfa">15000</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
 			<image position="droite" url=""/>
 		</plat>
-		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
+		<plat id="plat3" nomPlat="Salade de fruit" partieRepas="dessert">
 			<prix>2500</prix>
 			<descriptionPlat>Salade de fruits (pomme,banane,orange,ananas,raisin et mangue)</descriptionPlat>
 			<image position="droite" url=""/>
