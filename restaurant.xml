@@ -7,81 +7,100 @@
 		<adresse>Route de l'Aeroport, Dakar</adresse>
 		<nomRestaurateur>Victor Sall</nomRestaurateur>
 		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
-		<image position="Gauche" url=""/>
 	</coordonnees>
 	<carte>
 		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
-			<prix device="franc cfa">7500</prix>
+			<prix>15000</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
 		</plat>
 		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
-			<prix devise ="franc cfa">2500</prix>
+			<prix>2500</prix>
 			<descriptionPlat>Salade de fruits </descriptionPlat>
-		</plat>
-		<plat id="plat3" nomPlat="Curry d'aubergine" partieRepas="plat">
-			<prix device="franc cfa">6000</prix>
-			<descriptionPlat>Curry d'aubergine</descriptionPlat>
-		</plat>
-		<plat id="plat4" nomPlat="Salade Niçoise" partieRepas="entree">
-			<prix devise ="franc cfa">2500</prix>
-			<descriptionPlat>Salade Niçoise aux légumes sautés </descriptionPlat>
-		</plat>
-		<plat id="plat5" nomPlat="Gâteau 3 chocolat" partieRepas="dessert">
-			<prix devise ="franc cfa">10500</prix>
-			<descriptionPlat>Gâteau chocolaté </descriptionPlat>
-		</plat>
-		<plat id="plat6" nomPlat="Poulet grillé" partieRepas="dessert">
-			<prix devise ="franc cfa">4500</prix>
-			<descriptionPlat>Grillade de poulets </descriptionPlat>
 		</plat>
 	</carte>
 	<menus>
 		<menu titre="menuVegetarien">
-			<descriptionMenu>Menu végétarien riche et sain </descriptionMenu>
-			<prix devise ="franc cfa">12500</prix>
-			<listePlats idPlat="plat3 plat2 plat4"/>
+		
 		</menu>
 		<menu titre="menuAnniversaire">
-			<descriptionMenu>Menu pour anniversaire 4 personnes </descriptionMenu>
-			<prix devise ="franc cfa">40000</prix>
-			<listePlats idPlat="plat3 plat5 plat6"/>
+		
+		</menu>
+		<menu titre="platDuJour">
+		
 		</menu>
 	</menus>
 	
 </restaurant>
 <restaurant>
 	<coordonnees>
-		<nom>La Plancha</nom>
-		<adresse>44 Rue Wagane Diouf, Dakar, Sénégal</adresse>
-		<nomRestaurateur>Modou Diouf</nomRestaurateur>
-		<description>Française, Asiatique, Grillades</description>
+		
 	</coordonnees>	
 </restaurant>
 <restaurant>
 	<coordonnees>
-		<nom></nom>
-		<adresse></adresse>
-		<nomRestaurateur></nomRestaurateur>
-		<description></description>		
+		<nom> La Plancha</nom>
+		<adresse> 44 Rue Wagane DIOUF, Dakar, Senegal </adresse>
+		<nomRestaurateur> Lamine WANE</nomRestaurateur>
+		<description> La Plancha - Restaurant</description>		
 	</coordonnees>	
 	<carte>
+		<plat id="plat1" nomPlat="Salade de tomates" partieRepas="entree">
+			<prix devise="Franc CFA">2600</prix>
+			<descriptionPlat>Salade de tomates</descriptionPlat>
+		</plat>
+		<plat id="plat2" nomPlat="Dibi Poulet" partieRepas="plat">
+			<prix devise="Franc CFA">4800</prix>
+			<descriptionPlat> Dibi Poulet avec frites comme accompagnement </descriptionPlat>
+		</plat>
+		<plat id="plat3" nomPlat="Mousse au chocolat" partieRepas="dessert">	
+			<prix devise="Franc CFA">2500</prix>
+			<descriptionPlat> Mousse au chocolat</descriptionPlat>
+		</plat>		
 	</carte>
 	<menus>
-		<menu>
+		<menu titre="Menu Midi">
+			<descriptionMenu> Menu Midi</descriptionMenu>
+			<prix devise="Franc CFA">8125</prix>
+			<listePlats idPlats="plat1 plat2"></listePlats>
+		</menu>
+		<menu titre="Formule Grande Assiette">
+			<descriptionMenu> Formule Grande Assiette</descriptionMenu>
+			<prix devise="Franc CFA">8775</prix>
+			<listePlats idPlats="plat1 plat2 plat3"></listePlats>
 		</menu>
 	</menus>
 </restaurant>
 <restaurant>
 	<coordonnees>
-		<nom></nom>
-		<adresse></adresse>
-		<nomRestaurateur></nomRestaurateur>
-		<description></description>				
+		<nom> SWISS PALACE</nom>
+		<adresse> Point E</adresse>
+		<nomRestaurateur> Boubacar GUEYE</nomRestaurateur>
+		<description> SWISS PALACE - Pâtisserie - Pizzeria - Restaurant</description>				
 	</coordonnees>
 	<carte>
+		<plat id="plat1" nomPlat="Crevettes sautes" partieRepas="entree">
+			<prix devise="Franc CFA">2500</prix>
+			<descriptionPlat> Crevettes sautes</descriptionPlat>
+		</plat>
+		<plat id="plat2" nomPlat="Entrecote" partieRepas="plat">
+			<prix devise="Franc CFA">6750</prix>
+			<descriptionPlat> Entrecote avec frites maison </descriptionPlat>
+		</plat>
+		<plat id="plat3" nomPlat="Boule de Glace" partieRepas="dessert">	
+			<prix devise="Franc CFA">1000</prix>
+			<descriptionPlat> Boule de Glace </descriptionPlat>
+		</plat>	
 	</carte>
 	<menus>
-		<menu>
+		<menu titre="Plat du jour">
+			<descriptionMenu> Plat du jour</descriptionMenu>
+			<prix devise="Franc CFA">5800</prix>
+			<listePlats idPlats="plat1 plat2"></listePlats>
+		</menu>
+		<menu titre="">
+			<descriptionMenu></descriptionMenu>
+			<prix devise="Franc CFA">8775</prix>
+			<listePlats idPlats="plat1 plat2 plat3"></listePlats>
 		</menu>
 	</menus>
 </restaurant>
