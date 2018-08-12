@@ -1,1 +1,32 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet href="restaurant.xsl" type="text/css"?>
+<!DOCTYPE cours SYSTEM "restaurant.dtd">
+<restaurant>
+	<coordonnees>
 
+	</coordonnees>
+	<carte>
+
+	</carte>
+</restaurant>
+<restaurant>
+	<coordonnees>
+		<carte>
+
+		</carte>
+	</coordonnees>	
+</restaurant>
+<restaurant>
+	<coordonnees>
+		<carte>
+
+		</carte>
+	</coordonnees>	
+</restaurant>
+<restaurant>
+	<coordonnees>
+		<carte>
+
+		</carte>
+	</coordonnees>	
+</restaurant>
