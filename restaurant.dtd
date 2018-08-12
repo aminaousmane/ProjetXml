@@ -22,6 +22,7 @@
 <!ELEMENT prix (#PCDATA)>
 <!ELEMENT listePlats EMPTY>
 <!ATTLIST menu titre CDATA #REQUIRED>
+<!ATTLIST prix devise CDATA #REQUIRED>
 <!ATTLIST listePlats idPlats IDREFS #REQUIRED>
 
 
