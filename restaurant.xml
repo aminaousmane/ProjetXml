@@ -35,7 +35,10 @@
 </restaurant>
 <restaurant>
 	<coordonnees>
-		
+		<nom>La Plancha</nom>
+		<adresse>44 Rue Wagane Diouf, Dakar, Sénégal</adresse>
+		<nomRestaurateur>Modou Diouf</nomRestaurateur>
+		<description>Française, Asiatique, Grillades</description>
 	</coordonnees>	
 </restaurant>
 <restaurant>
