@@ -10,17 +10,19 @@
 	</coordonnees>
 	<carte>
 		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
-			<prix>15000</prix>
+			<prix device="franc cfa">7500</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
 		</plat>
 		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
-			<prix>2500</prix>
+			<prix devise ="franc cfa">2500</prix>
 			<descriptionPlat>Salade de fruits </descriptionPlat>
 		</plat>
 	</carte>
 	<menus>
 		<menu titre="menuVegetarien">
-		
+			<descriptionMenu>Menu végétarien riche et sain </descriptionMenu>
+			<prix devise ="franc cfa">12500</prix>
+			<listePlats idPlat="plat1"/>
 		</menu>
 		<menu titre="menuAnniversaire">
 		
