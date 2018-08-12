@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet href="restaurant.xsl" type="text/css"?>
 <!DOCTYPE cours SYSTEM "restaurant.dtd">
-<restaurant>
+<restaurants>
+	<restaurant>
 	<coordonnees>
 		<nom>Chez Katia</nom>
 		<adresse>Route de l'Aeroport, Dakar</adresse>
@@ -157,3 +158,5 @@
 		</menu>
 	</menus>
 </restaurant>
+
+</restaurants>
