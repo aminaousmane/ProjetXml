@@ -7,34 +7,18 @@
 		<adresse>Route de l'Aeroport, Dakar</adresse>
 		<nomRestaurateur>Victor Sall</nomRestaurateur>
 		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
-		<image position="gauche" url=""/>
 	</coordonnees>
 	<carte>
-		<plat id="plat1" nomPlat="Salade Niçoise" partieRepas="entree">
-			<prix devise="franc cfa">3000</prix>
-			<descriptionPlat>Salade niçoise aux légumes sautés</descriptionPlat>
-			<image position="droite" url=""/>
-		</plat>
-		<plat id="plat2" nomPlat="Filet de boeuf" partieRepas="plat">
-			<prix devise="franc cfa">15000</prix>
+		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
+			<prix>15000</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
-			<image position="droite" url=""/>
 		</plat>
-		<plat id="plat3" nomPlat="Salade de fruit" partieRepas="dessert">
+		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
 			<prix>2500</prix>
-			<descriptionPlat>Salade de fruits (pomme,banane,orange,ananas,raisin et mangue)</descriptionPlat>
-			<image position="droite" url=""/>
+			<descriptionPlat>Salade de fruits </descriptionPlat>
 		</plat>
 	</carte>
-</restaurant>
-<restaurant>
-	<coordonnees>
-		<nom>La Plancha</nom>
-		<adresse>44 rue Wagane Diouf, Dakar</adresse>
-		<nomRestaurateur>Modou Diouf</nomRestaurateur>
-		<description>Française, Asiatique, Grillade</description>
-		<image position="gauche" url=""/>
-	</coordonnees>	
+	
 </restaurant>
 <restaurant>
 	<coordonnees>
@@ -43,6 +27,29 @@
 </restaurant>
 <restaurant>
 	<coordonnees>
-		
+		<nom></nom>
+		<adresse></adresse>
+		<nomRestaurateur></nomRestaurateur>
+		<description></description>		
 	</coordonnees>	
+	<carte>
+	</carte>
+	<menus>
+		<menu>
+		</menu>
+	</menus>
+</restaurant>
+<restaurant>
+	<coordonnees>
+		<nom></nom>
+		<adresse></adresse>
+		<nomRestaurateur></nomRestaurateur>
+		<description></description>				
+	</coordonnees>
+	<carte>
+	</carte>
+	<menus>
+		<menu>
+		</menu>
+	</menus>
 </restaurant>
