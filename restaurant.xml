@@ -3,7 +3,10 @@
 <!DOCTYPE cours SYSTEM "restaurant.dtd">
 <restaurant>
 	<coordonnees>
-
+		<nom>Chez Katia</nom>
+		<adresse>Route de l'Aeroport, Dakar</adresse>
+		<nomRestaurateur>Victor Sall</nomRestaurateur>
+		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
 	</coordonnees>
 	<carte>
 
