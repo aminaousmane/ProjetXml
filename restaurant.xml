@@ -19,13 +19,13 @@
 		</plat>
 	</carte>
 	<menus>
-		<menu>
+		<menu titre="menuVegetarien">
 		
 		</menu>
-		<menu>
+		<menu titre="menuAnniversaire">
 		
 		</menu>
-		<menu>
+		<menu titre="platDuJour">
 		
 		</menu>
 	</menus>
