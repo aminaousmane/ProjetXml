@@ -24,7 +24,11 @@
 </restaurant>
 <restaurant>
 	<coordonnees>
-		
+		<nom>La Plancha</nom>
+		<adresse>44 rue Wagane Diouf, Dakar</adresse>
+		<nomRestaurateur>Modou Diouf</nomRestaurateur>
+		<description>Française, Asiatique, Grillade</description>
+		<image position="gauche" url=""/>
 	</coordonnees>	
 </restaurant>
 <restaurant>
