@@ -16,7 +16,7 @@
 		</plat>
 		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
 			<prix>2500</prix>
-			<descriptionPlat>Salade de fruits </descriptionPlat>
+			<descriptionPlat>Salade de fruits (pomme,banane,orange,ananas,raisin et mangue)</descriptionPlat>
 		</plat>
 	</carte>
 </restaurant>
