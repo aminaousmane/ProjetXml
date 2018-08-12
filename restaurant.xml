@@ -10,19 +10,17 @@
 	</coordonnees>
 	<carte>
 		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
-			<prix device="franc cfa">7500</prix>
+			<prix>15000</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
 		</plat>
 		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
-			<prix devise ="franc cfa">2500</prix>
+			<prix>2500</prix>
 			<descriptionPlat>Salade de fruits </descriptionPlat>
 		</plat>
 	</carte>
 	<menus>
 		<menu titre="menuVegetarien">
-			<descriptionMenu>Menu végétarien riche et sain </descriptionMenu>
-			<prix devise ="franc cfa">12500</prix>
-			<listePlats idPlat="plat3 plat2 plat4"/>
+		
 		</menu>
 		<menu titre="menuAnniversaire">
 		
@@ -35,23 +33,34 @@
 </restaurant>
 <restaurant>
 	<coordonnees>
-		<nom>La Plancha</nom>
-		<adresse>44 Rue Wagane Diouf, Dakar, Sénégal</adresse>
-		<nomRestaurateur>Modou Diouf</nomRestaurateur>
-		<description>Française, Asiatique, Grillades</description>
+		
 	</coordonnees>	
 </restaurant>
 <restaurant>
 	<coordonnees>
-		<nom></nom>
-		<adresse></adresse>
-		<nomRestaurateur></nomRestaurateur>
-		<description></description>		
+		<nom> La Plancha</nom>
+		<adresse> 44 Rue Wagane DIOUF, Dakar, Senegal </adresse>
+		<nomRestaurateur> Lamine WANE</nomRestaurateur>
+		<description> La Plancha - Restaurant</description>		
 	</coordonnees>	
 	<carte>
+		<plat id="plat1" nomPlat="Salade de tomates" partieRepas="entree">
+			<prix devise="Franc CFA">2600</prix>
+			<descriptionPlat>Salade de tomates</descriptionPlat>
+		</plat>
+		<plat id="plat2" nomPlat="Dibi Poulet" partieRepas="plat">
+			<prix devise="Franc CFA">4800</prix>
+			<descriptionPlat> Dibi Poulet avec frites comme accompagnement </descriptionPlat>
+		</plat>
+		<plat id="plat3" nomPlat="Mousse au chocolat" partieRepas="dessert">	
+			<prix devise="Franc CFA">2500</prix>
+			<descriptionPlat> Mousse au chocolat</descriptionPlat>
+		</plat>		
 	</carte>
 	<menus>
-		<menu>
+		<menu titre="">
+		</menu>
+		<menu titre="">
 		</menu>
 	</menus>
 </restaurant>
