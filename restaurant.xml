@@ -9,7 +9,10 @@
 		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
 	</coordonnees>
 	<carte>
-
+		<plat>
+			<prix>15000</prix>
+			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
+		</plat>
 	</carte>
 </restaurant>
 <restaurant>
