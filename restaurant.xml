@@ -7,34 +7,87 @@
 		<adresse>Route de l'Aeroport, Dakar</adresse>
 		<nomRestaurateur>Victor Sall</nomRestaurateur>
 		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
+		<images position="Gauche" url=""/>
 	</coordonnees>
 	<carte>
 		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
-			<prix>15000</prix>
+			<prix device="franc cfa">7500</prix>
 			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
 		</plat>
 		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
-			<prix>2500</prix>
+			<prix devise ="franc cfa">2500</prix>
 			<descriptionPlat>Salade de fruits </descriptionPlat>
+		</plat>
+		<plat id="plat3" nomPlat="Curry d'aubergine" partieRepas="plat">
+			<prix device="franc cfa">6000</prix>
+			<descriptionPlat>Curry d'aubergine</descriptionPlat>
+		</plat>
+		<plat id="plat4" nomPlat="Salade Niçoise" partieRepas="entree">
+			<prix devise ="franc cfa">2500</prix>
+			<descriptionPlat>Salade Niçoise aux légumes sautés </descriptionPlat>
+		</plat>
+		<plat id="plat5" nomPlat="Gâteau 3 chocolat" partieRepas="dessert">
+			<prix devise ="franc cfa">10500</prix>
+			<descriptionPlat>Gâteau chocolaté </descriptionPlat>
+		</plat>
+		<plat id="plat6" nomPlat="Poulet grillé" partieRepas="plat">
+			<prix devise ="franc cfa">4500</prix>
+			<descriptionPlat>Grillade de poulets </descriptionPlat>
 		</plat>
 	</carte>
 	<menus>
 		<menu titre="menuVegetarien">
-		
+			<descriptionMenu>Menu végétarien riche et sain </descriptionMenu>
+			<prix devise ="franc cfa">12500</prix>
+			<listePlats idPlat="plat3 plat2 plat4"/>
 		</menu>
 		<menu titre="menuAnniversaire">
-		
-		</menu>
-		<menu titre="platDuJour">
-		
+			<descriptionMenu>Menu pour anniversaire 4 personnes </descriptionMenu>
+			<prix devise ="franc cfa">40000</prix>
+			<listePlats idPlat="plat3 plat5 plat6"/>
 		</menu>
 	</menus>
 	
 </restaurant>
 <restaurant>
 	<coordonnees>
-		
+		<nom>La Plancha</nom>
+		<adresse>44 Rue Wagane Diouf, Dakar, Sénégal</adresse>
+		<nomRestaurateur>Modou Diouf</nomRestaurateur>
+		<description>Française, Asiatique, Grillades</description>
+		<images position="Gauche" url=""/>
 	</coordonnees>	
+		<carte>
+		<plat id="plat6" nomPlat="Cassoulet" partieRepas="plat">
+			<prix device="franc cfa">7500</prix>
+			<descriptionPlat>ce plat est composé de haricots blancs, de cuisses de canard et de viande de boeuf</descriptionPlat>
+		</plat>
+		<plat id="plat8" nomPlat="Salade de fruit" partieRepas="dessert">
+			<prix devise ="franc cfa">2500</prix>
+			<descriptionPlat>Salade de fruits </descriptionPlat>
+		</plat>
+		<plat id="plat9" nomPlat="Yassa Poulet" partieRepas="plat">
+			<prix device="franc cfa">6000</prix>
+			<descriptionPlat>Riz + Sauce +poulet</descriptionPlat>
+		</plat>
+		<plat id="plat10" nomPlat="Salade Niçoise" partieRepas="entree">
+			<prix devise ="franc cfa">2500</prix>
+			<descriptionPlat>Salade Niçoise aux légumes sautés </descriptionPlat>
+		</plat>
+		<plat id="plat11" nomPlat="Mousse chocolatée" partieRepas="dessert">
+			<prix devise ="franc cfa">10500</prix>
+			<descriptionPlat>Chocolat noire+ chocolat blanc</descriptionPlat>
+		</plat>
+		<plat id="plat12" nomPlat="Poulet grillé" partieRepas="plat">
+			<prix devise ="franc cfa">4500</prix>
+			<descriptionPlat>Grillade de poulets </descriptionPlat>
+		</plat>
+		<menu titre="platDuJour">
+			<descriptionMenu>Plat du jour entree+dessert+repas </descriptionMenu>
+			<prix devise ="franc cfa">14800</prix>
+			<listePlats idPlat="plat10 plat9 plat11"/>
+		</menu>
+	</carte>
 </restaurant>
 <restaurant>
 	<coordonnees>
