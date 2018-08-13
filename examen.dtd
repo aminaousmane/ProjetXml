@@ -2,7 +2,7 @@
 <!ATTLIST examen code NMTOKEN #REQUIRED>
 <!ELEMENT titre(#PCDATA)>
 <!ELEMENT date EMPTY>
-<!ATTLIST date mois(Janv|Fev|Mars|Avr|Mai|Juin|Juil|Aout|Sept|Oct|Nov|Dec)#REQUIRED annee CDATA #REQUIRED>
+<!ATTLIST date mois(Janvier|Fevrier|Mars|Avril|Mai|Juin|Juillet|Aout|Septembre|Octobre|Novembre|Decembre)#REQUIRED annee CDATA #REQUIRED>
 <!ELEMENT questions(question,question,question,question,question,question?)>
 <!ELEMENT question(partie+)>
 <!ELEMENT partie(#PCDATA|partie)*>
