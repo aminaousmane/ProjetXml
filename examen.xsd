@@ -1,3 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+  <xsd:element name="titre" type="xsd:string"/>
+  <xsd:element name="date">
+    <xsd:complexType>
+      <xsd:attribute name="mois" type="xsd:string"/>
+      <xsd:attribute name="annee" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <!-- balise partie -->
+  <xsd:element name="partie">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="partie" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <!-- balise question -->
+  <xsd:element name="question">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="partie" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <!-- balise questions -->
+  <xsd:element name="questions">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="question" minOccurs="5" maxOccurs="6"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <!--balise examen -->
+  
+  
+  
+  
 </xsd:schema>
