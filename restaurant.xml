@@ -1,183 +1,52 @@
-<?xml version="1.0" encoding="utf8"?>
-<?xml-stylesheet href="restaurant.xsl" type="text/css"?>
-<!DOCTYPE cours SYSTEM "restaurant.dtd">
-<restaurant>
-	<coordonnees>
-		<nom>Chez Katia</nom>
-		<adresse>Route de l'Aeroport, Dakar</adresse>
-		<nomRestaurateur>Victor Sall</nomRestaurateur>
-		<description>KATIA - Pâtisserie - Pizzeria - Restaurant - Lounge</description>
-		<images position="Gauche" url=""/>
-	</coordonnees>
-	<carte>
-		<plat id="plat1" nomPlat="Filet de boeuf" partieRepas="plat">
-			<prix device="franc cfa">7500</prix>
-			<descriptionPlat>Filet de boeuf à la crême fraiche</descriptionPlat>
-		</plat>
-		<plat id="plat2" nomPlat="Salade de fruit" partieRepas="dessert">
-			<prix devise ="franc cfa">2500</prix>
-			<descriptionPlat>Salade de fruits </descriptionPlat>
-		</plat>
-		<plat id="plat3" nomPlat="Curry d'aubergine" partieRepas="plat">
-			<prix device="franc cfa">6000</prix>
-			<descriptionPlat>Curry d'aubergine</descriptionPlat>
-		</plat>
-		<plat id="plat4" nomPlat="Salade Niçoise" partieRepas="entree">
-			<prix devise ="franc cfa">2500</prix>
-			<descriptionPlat>Salade Niçoise aux légumes sautés </descriptionPlat>
-		</plat>
-		<plat id="plat5" nomPlat="Gâteau 3 chocolat" partieRepas="dessert">
-			<prix devise ="franc cfa">10500</prix>
-			<descriptionPlat>Gâteau chocolaté </descriptionPlat>
-		</plat>
-		<plat id="plat6" nomPlat="Poulet grillé" partieRepas="plat">
-			<prix devise ="franc cfa">4500</prix>
-			<descriptionPlat>Grillade de poulets </descriptionPlat>
-		</plat>
-	</carte>
-	<menus>
-		<menu titre="menuVegetarien">
-			<descriptionMenu>Menu végétarien riche et sain </descriptionMenu>
-			<prix devise ="franc cfa">12500</prix>
-			<listePlats idPlat="plat3 plat2 plat4"/>
-		</menu>
-		<menu titre="menuAnniversaire">
-			<descriptionMenu>Menu pour anniversaire 4 personnes </descriptionMenu>
-			<prix devise ="franc cfa">40000</prix>
-			<listePlats idPlat="plat3 plat5 plat6"/>
-		</menu>
-	</menus>
-	
-</restaurant>
-<restaurant>
-	<coordonnees>
-		<nom>La Calebasse</nom>
-		<adresse>Route de la corniche</adresse>
-		<nomRestaurateur>Modou Diouf</nomRestaurateur>
-		<description>Française, Asiatique, Grillades</description>
-		<images position="Gauche" url=""/>
-	</coordonnees>	
-		<carte>
-		<plat id="plat6" nomPlat="Cassoulet" partieRepas="plat">
-			<prix device="franc cfa">7500</prix>
-			<descriptionPlat>ce plat est composé de haricots blancs, de cuisses de canard et de viande de boeuf</descriptionPlat>
-		</plat>
-		<plat id="plat8" nomPlat="Salade de fruit" partieRepas="dessert">
-			<prix devise ="franc cfa">2500</prix>
-			<descriptionPlat>Salade de fruits </descriptionPlat>
-		</plat>
-		<plat id="plat9" nomPlat="Yassa Poulet" partieRepas="plat">
-			<prix device="franc cfa">6000</prix>
-			<descriptionPlat>Riz + Sauce +poulet</descriptionPlat>
-		</plat>
-		<plat id="plat10" nomPlat="Salade Niçoise" partieRepas="entree">
-			<prix devise ="franc cfa">2500</prix>
-			<descriptionPlat>Salade Niçoise aux légumes sautés </descriptionPlat>
-		</plat>
-		<plat id="plat11" nomPlat="Mousse chocolatée" partieRepas="dessert">
-			<prix devise ="franc cfa">10500</prix>
-			<descriptionPlat>Chocolat noire+ chocolat blanc</descriptionPlat>
-		</plat>
-		<plat id="plat12" nomPlat="Poulet grillé" partieRepas="plat">
-			<prix devise ="franc cfa">4500</prix>
-			<descriptionPlat>Grillade de poulets </descriptionPlat>
-		</plat>
-		<menu titre="platDuJour">
-			<descriptionMenu>Plat du jour entree+dessert+repas </descriptionMenu>
-			<prix devise ="franc cfa">14800</prix>
-			<listePlats idPlat="plat10 plat9 plat11"/>
-		</menu>
-	</carte>
-</restaurant>
-<restaurant>
-	<coordonnees>
-		<nom> La Plancha</nom>
-		<adresse> 44 Rue Wagane DIOUF, Dakar, Senegal </adresse>
-		<nomRestaurateur> Lamine WANE</nomRestaurateur>
-		<description> La Plancha - Restaurant</description>		
-	</coordonnees>	
-	<carte>
-		<plat id="plat13" nomPlat="Salade de tomates" partieRepas="entree">
-			<prix devise="Franc CFA">2600</prix>
-			<descriptionPlat>Salade de tomates</descriptionPlat>
-		</plat>
-		<plat id="plat14" nomPlat="Dibi Poulet" partieRepas="plat">
-			<prix devise="Franc CFA">4800</prix>
-			<descriptionPlat> Dibi Poulet avec frites comme accompagnement </descriptionPlat>
-		</plat>
-		<plat id="plat15" nomPlat="Mousse au chocolat" partieRepas="dessert">	
-			<prix devise="Franc CFA">2500</prix>
-			<descriptionPlat> Mousse au chocolat</descriptionPlat>
-		</plat>		
-		<plat id="plat16" nomPlat="Crepe au Jambon" partieRepas="plat">
-			<prix devise="Franc CFA">7500</prix>
-			<descriptionPlat> Crepe au Jambon</descriptionPlat>
-		</plat>
-		<plat id="plat17" nomPlat="Yassa au Poulet" partieRepas="plat">
-			<prix devise="Franc CFA">7500</prix>
-			<descriptionPlat> Yassa au Poulet grille</descriptionPlat>
-		</plat>
-		<plat id="plat18" nomPlat="Assiette de charcuterie" partieRepas="plat">
-			<prix devise="Franc CFA">7500</prix>
-			<descriptionPlat> Assiette de charcuterie avec accompagnement</descriptionPlat>
-		</plat>
-	</carte>
-	<menus>
-		<menu titre="Menu Midi">
-			<descriptionMenu> Menu Midi</descriptionMenu>
-			<prix devise="Franc CFA">7500</prix>
-			<listePlats idPlats="plat16 plat17 plat18"></listePlats>
-		</menu>
-		<menu titre="Formule Grande Assiette">
-			<descriptionMenu> Formule Grande Assiette</descriptionMenu>
-			<prix devise="Franc CFA">8775</prix>
-			<listePlats idPlats="plat13 plat14 plat15"></listePlats>
-		</menu>
-	</menus>
-</restaurant>
-<restaurant>
-	<coordonnees>
-		<nom> SWISS PALACE</nom>
-		<adresse> Point E</adresse>
-		<nomRestaurateur> Boubacar GUEYE</nomRestaurateur>
-		<description> SWISS PALACE - Pâtisserie - Pizzeria - Restaurant</description>				
-	</coordonnees>
-	<carte>
-		<plat id="plat19" nomPlat="Crevettes sautes" partieRepas="entree">
-			<prix devise="Franc CFA">2500</prix>
-			<descriptionPlat> Crevettes sautes</descriptionPlat>
-		</plat>
-		<plat id="plat20" nomPlat="Entrecote" partieRepas="plat">
-			<prix devise="Franc CFA">6750</prix>
-			<descriptionPlat> Entrecote avec frites maison </descriptionPlat>
-		</plat>
-		<plat id="plat21" nomPlat="Boule de Glace" partieRepas="dessert">	
-			<prix devise="Franc CFA">1000</prix>
-			<descriptionPlat> Boule de Glace </descriptionPlat>
-		</plat>	
-		<plat id="plat22" nomPlat="Lasagnes a la bolognaise" partieRepas="plat">
-			<prix devise="Franc CFA">5500</prix>
-			<descriptionPlat> Lasagnes a la bolognaise</descriptionPlat>
-		</plat>
-		<plat id="plat23" nomPlat="Riz au poisson" partieRepas="plat">
-			<prix devise="Franc CFA">7500</prix>
-			<descriptionPlat> Riz au poisson</descriptionPlat>
-		</plat>
-		<plat id="plat24" nomPlat="gateau aux amandes" partieRepas="dessert">
-			<prix devise="Franc CFA">2500</prix>
-			<descriptionPlat>Gateau aux amandes</descriptionPlat>
-		</plat>
-	</carte>
-	<menus>
-		<menu titre="Plat du jour">
-			<descriptionMenu> Plat du jour</descriptionMenu>
-			<prix devise="Franc CFA">9800</prix>
-			<listePlats idPlats="plat22 plat23 plat24"></listePlats>
-		</menu>
-		<menu titre="Charcuterie">
-			<descriptionMenu>Charcuterie</descriptionMenu>
-			<prix devise="Franc CFA">5800</prix>
-			<listePlats idPlats="plat19 plat20 plat21"></listePlats>
-		</menu>
-	</menus>
-</restaurant>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="restaurant">
+  <html>
+    <head>
+      <title>Restaurants</title>
+      <meta charset="utf8" />
+      <link rel="stylesheet" href="restaurant.css"/>
+    </head>
+    <body >
+      <h1 class ="title"> <span><xsl:value-of select="coordonnees/nom" /></span> </h1>
+      <div class ="coord">
+      <h2>Coordonnees</h2>
+      <p> <xsl:value-of select="coordonnees/nomRestaurateur" />  </p>
+     <p> <xsl:value-of select="coordonnees/description" />  </p>
+      <p> <xsl:value-of select="coordonnees/adresse" />  </p>
+      <p class="flotte">
+      <img>
+    <xsl:attribute name="src">
+      <xsl:value-of select="coordonnees/images/@url"/>
+    </xsl:attribute>
+  </img>
+  </p></div>
+      <h2>Carte</h2>
+      <div class ="coord1">
+      <table id="customers">
+        <th>Plat</th>
+        <th>Prix</th> 
+        <th>Type</th>
+        <xsl:for-each select="carte/plat">
+        <tr >
+          <td><xsl:value-of select="@nomPlat" /></td>
+          <td><xsl:value-of select="prix" /><xsl:value-of select="prix/@devise"/></td>
+          <td><xsl:value-of select="@partieRepas" /></td>
+        </tr>
+        </xsl:for-each>
+      </table></div>
+      <div class ="menu">
+      <xsl:for-each select="menus/menu">
+      <h2><p> <xsl:value-of select="@titre"/> </p></h2>
+      <ul>
+        
+          <li>
+          <p> <xsl:value-of select="id(listePlats/@idPlats)/@nomPlat" />  </p>
+     <p> <xsl:value-of select="prix" /><xsl:value-of select="prix/@devise" />  </p>
+        </li>
+    
+      </ul></xsl:for-each></div>
+    </body>
+  </html>
+</xsl:template>
+</xsl:stylesheet>
