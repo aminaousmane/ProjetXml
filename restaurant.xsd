@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="restaurants">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="restaurant" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="coordonnees" type="coordonnees"/>
+							<xs:element name="carte">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="plat" type="plat" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="menus">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="menu" type="menu" maxOccurs="unbounded"/>
+			
+									</xs:sequence>
+									<xs:attribute name="titre" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="coordonnees">
+		<xs:sequence>
+			<xs:element name="nom" type="xs:string"/>
+			<xs:element name="adresse" type="xs:string"/>
+			<xs:element name="nomRestaurateur" type="xs:string"/>
+			<xs:element name="description" type="xs:string"/>
+			<xs:element name="images"  minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+    				<xs:attribute name="position" use="required">
+    					<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="gauche"/>
+								<xs:enumeration value="droite"/>
+								<xs:enumeration value="centre"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+    				<xs:attribute name="url" use="required" type="xs:string"/>
+  				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="plat">
+		<xs:sequence>
+			<xs:element name="prix" type="prix"/>
+
+			<xs:element name="descriptionPlat" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+		<xs:attribute name="nomPlat" type="xs:string" use="required"/>
+		<xs:attribute name="partieRepas" use="required">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="entree"/>
+				<xs:enumeration value="plat"/>
+				<xs:enumeration value="dessert"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="menu">
+		<xs:sequence>
+			<xs:element name="descriptionMenu" type="xs:string"/>
+			<xs:element name="prix" type="prix"/> 
+			<xs:element name="listePlats">
+  				<xs:complexType>
+    				<xs:attribute name="idPlats" type="xs:IDREFS"/>
+  				</xs:complexType>
+			</xs:element> 
+		</xs:sequence>
+		<xs:attribute name="titre" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="prix">
+		<xs:simpleContent>
+
+			<xs:extension base="xs:string">
+
+    			<xs:attribute name="devise" type="xs:string" ></xs:attribute>
+
+			</xs:extension>
+
+		</xs:simpleContent>
+
+	</xs:complexType>
+</xs:schema>
