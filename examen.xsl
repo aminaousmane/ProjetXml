@@ -10,6 +10,7 @@
           background-color : #FBA0FE;
           color : white;
         }
+      </style>
     </head>
     <body>
         <h1> <xsl:value-of select="titre"/> </h1>
@@ -19,10 +20,10 @@
             <xsl:if test="@idParent">
               La suite de 
               <xsl:value-of select="@idParent"/>
-              <hr>
+              <hr/>
             </xsl:if>
             <xsl:value-of select="."/>
-              <hr>
+              <hr/>
           </xsl:for-each>
          </xsl:for-each>     
     </body>
