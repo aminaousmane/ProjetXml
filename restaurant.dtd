@@ -13,16 +13,14 @@
 <!ELEMENT carte (plat+)>
 <!ELEMENT plat (prix,descriptionPlat)>
 <!ELEMENT prix (#PCDATA)>
-<!ELEMENT descriptionPlat(#PCDATA|textesImportants)*>
+<!ELEMENT descriptionPlat
+(#PCDATA|textesImportants)*>
 <!ATTLIST plat id ID #REQUIRED nomPlat CDATA #REQUIRED partieRepas (entree|dessert|plat|fromage) #REQUIRED>
 <!ATTLIST prix devise CDATA #REQUIRED>
 <!ELEMENT menus (menu+)>
 <!ELEMENT menu (descriptionMenu,prix,listePlats)>
 <!ELEMENT descriptionMenu (#PCDATA)>
-<!ELEMENT prix (#PCDATA)>
 <!ELEMENT listePlats EMPTY>
 <!ATTLIST menu titre CDATA #REQUIRED>
 <!ATTLIST prix devise CDATA #REQUIRED>
 <!ATTLIST listePlats idPlats IDREFS #REQUIRED>
-
-
