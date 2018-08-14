@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet href="examen.xsl" type="text/xsl"?>
-<!DOCTYPE cours SYSTEM "examen.dtd">
-<examen code="passage">
-	<titre>TD 1 (XML:Syntaxe-DTD)</titre>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen code="passage"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"        xsi:noNamespaceSchemaLocation="examen.xsd">
+<titre> TD 1 (XML:Syntaxe-DTD) </titre>
 	<date mois="Mai" annee="2018"/>
 	<questions>
 		<question>
-			<partie>  
+			<partie>
 				1) Soit le document XML suivant:
-				<partie>
 					<![CDATA[
 						<?xml version="1.0" encoding="utf8"?>
 						<!DOCTYPE compagnie [<!ENTITY % administration "Jean Perron" >
@@ -25,7 +24,6 @@
 							<adjoint>Marion Lepage</adjoint>
 						</compagnie>
 					]]>
-				</partie>
 				<partie>A.Quel est le nom de l'élément racine ?</partie>
 				<partie>B.Quel est le contenu de l'élément comptable ?</partie>
 				<partie>C.Quel est le contenu de l'élément président ?</partie>
@@ -36,7 +34,7 @@
 		<question>
 			<partie>
 				2) Au Cinéma !
-				Dans cet exercice on se propose de concevoir un systeme permettant de publier le programme d'un 
+				Dans cet exercice on se propose de concevoir un systeme permettant de publier le programme d'un
 				cinema sur Internet. Le programme est constitué du descriptif de chaque film a l'affiche pendant
 				la semaine. Comme dans l'exemple, ci-après chaque film est décrit par son titre, sa durée, son genre,
 				son réalisateur,ses acteurs,année de production, sa langue de diffusion ainsi que par un cout paragraphe
@@ -48,9 +46,9 @@
 					<partie> c) Chaque film doit obligatoirement contenir un horaire</partie>
 				</partie>
 				<partie> Proposer un DTD  qui soit la moins restrictive possible</partie>
-				
+
 			</partie>
-		</question> 
+		</question>
 		<question>
 			<partie>
 				3) Ecrire la DTD correspondante à chacun des points suivants :
@@ -61,13 +59,13 @@
 		</question>
 		<question>
 			<partie>
-				4) Soit la DTD suivante : 
+				4) Soit la DTD suivante :
 			</partie>
 
 		</question>
 		<question>
 			<partie>
-				5) On souhaite représenter un carnet d'adresses en XML.Pour chaque entree du carnet, obn veut 
+				5) On souhaite représenter un carnet d'adresses en XML.Pour chaque entree du carnet, obn veut
 				conserver les informations suivantes:
 				-nom et prenom de la personne
 				-adresse
@@ -76,7 +74,7 @@
 				-date d'anniversaire
 				<partie> 1. Ecrire une DTD pour le carnet d'adresses.</partie>
 				<partie> 2. Ecrire un fichier valide pour cette DTD, comportant au moins deux entrees et
-					faisant apparaitre toutes les possibilites de la DTD (c'est a dire toutes les valeurs 
+					faisant apparaitre toutes les possibilites de la DTD (c'est a dire toutes les valeurs
 					possibles pour les attributs et tous les elements et attributs optionnels).
 				</partie>
 				<partie>Proposer une DTD pour valider les arbres XML</partie>
@@ -85,12 +83,12 @@
 		</question>
 		<question>
 			<partie>
-				6) Ecrire une DTD pour des documents XML de type examen. Un examen contient un code de cours, 
-				un titre et une date qui contient uniquement le mois et l'annee. Ces elements sont suivis par une 
+				6) Ecrire une DTD pour des documents XML de type examen. Un examen contient un code de cours,
+				un titre et une date qui contient uniquement le mois et l'annee. Ces elements sont suivis par une
 				liste de questions. Un examen a entre 5 et 6 questions et chaque question a une ou plusieurs parties.
 				Une partie se decoupe en textes melanges avec d'autres parties. Le code est uniquement alphanumerique
 				, sans espace, la valeur de mois dit etre une chaine de caractere valide (idee : utilisez des enumerations).
-				<partie> 
+				<partie>
 					Donnez une instance de document valide par rapport a votre DTD (Utilisez une declaration de DTD externe)
 					et deux exemples invalide en expliquant pourquoi
 				</partie>
