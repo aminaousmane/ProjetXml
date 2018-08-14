@@ -8,24 +8,27 @@
         body
         {
           background-color : #FBA0FE;
-          color : white;
+          color : black;
+          padding : 5px;
+          margin : 50px;
         }
       </style>
     </head>
     <body>
-        <h1> <xsl:value-of select="titre"/> </h1>
+        <center><h1> <xsl:value-of select="titre"/> </h1></center>
+        <hr/>
+        <br/>
+        <hr/>
+        <br/>
+        <hr/>
         <xsl:for-each select="questions/question">
           <xsl:for-each select="./partie">
             <h2> Question <xsl:value-of select="@id" /> </h2>
-            <xsl:if test="@idParent">
-              La suite de 
-              <xsl:value-of select="@idParent"/>
-              <hr/>
-            </xsl:if>
+            <!-- affiche le contenu des parties -->
             <xsl:value-of select="."/>
-              <hr/>
+          <hr/>
           </xsl:for-each>
-         </xsl:for-each>     
+         </xsl:for-each>
     </body>
   </html>
   </xsl:template>
